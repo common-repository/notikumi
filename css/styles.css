@@ -1,0 +1,40 @@
+.hidden {display:none}
+.h {overflow:hidden!important}
+.tp {margin-top:0!important}
+.bt {margin-bottom:0!important}
+
+.bt1 {margin-bottom:1em!important}
+.bt2 {margin-bottom:2em!important}
+.bt3 {margin-bottom:3em!important}
+
+.fl{float:left!important}
+.fr{float:right!important}
+.cb{clear:both!important}
+
+.fs80 {font-size:80%!important}
+
+#ntk_form p{
+	clear:both;
+	overflow:hidden;
+	margin:0.65em 0;
+}
+#ntk_form p label, #ntk_form .fld label {
+	width:100px;
+	float:left;
+	margin-top: 5px;
+	color:#666;
+	font-size: 13px;
+}
+#ntk_form p input, #ntk_form .fld input {
+	float:left;					
+	font-size: 13px;
+}
+
+#ntk_form p.check label, #ntk_form .fld.check label {
+	margin-top: 0px;
+	margin-left: 5px;
+	width: 220px;
+}
+#ntk_form p.check input, #ntk_form .fld.check input {
+	margin-top: 2px;
+}
